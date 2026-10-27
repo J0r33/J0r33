@@ -47,6 +47,10 @@ Square for payments, Resend for email, Vercel for hosting, GitHub Actions for CI
 - Members moved to the new platform with no service interruption
 - Platform separated cleanly across two legal entities
 
+**Read more:** [booking-platform-case-study](https://github.com/J0r33/booking-platform-case-study) has the
+architecture and ten excerpts from the production code: webhook verification, idempotent payments,
+row-level security, and checks that fail closed.
+
 ---
 
 ## How I work with AI agents

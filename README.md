@@ -6,6 +6,9 @@ I take a business that runs on spreadsheets and a no-code app, work out what it 
 and run the system that does it. Most of my work is in private client repos, so the contribution graph
 shows the volume and this page explains it.
 
+**Open to:** Forward Deployed Engineer · Solutions Engineer · Deployment Engineer roles. Southern
+Oregon, remote.
+
 [joreeweatherly.com](https://joreeweatherly.com) · [LinkedIn](https://www.linkedin.com/in/joreeweatherly)
 
 ---
@@ -38,14 +41,18 @@ Square for payments, Resend for email, Vercel for hosting, GitHub Actions for CI
   it. The gates cover type checks, secret scanning (gitleaks), dependency audits and a PR quality gate.
 - **Kept member data out of logs and analytics.** Personal and payment data never goes to error
   trackers, logs or ad platforms. Ad conversions are reported without customer details.
-- **Split the platform when the business split.** When the company separated into two legal
-  entities, I divided one shared app and database into separate systems for each business.
+- **Split the platform when the business split.** When the fitness center became its own LLC, I
+  separated it from the wellness center it had shared one app with, in a week: its own domain, repo
+  and backend, with every member account left where it was. The payment-account switch waits on the
+  processor's underwriting of the new LLC, written up as a runbook with a rollback.
 
 **Results**
 
-- 500+ pull requests across the platform repos, each tied to its own ticket
+- 500+ merged pull requests across my repos, 480 of them on the platform itself between July
+  and October 2026, nearly all tied to their own ticket
 - Members moved to the new platform with no service interruption
-- Platform separated cleanly across two legal entities
+- 12 production releases since go-live in September 2026
+- Platform split across two businesses in a week
 
 **Read more:** [booking-platform-case-study](https://github.com/J0r33/booking-platform-case-study) has the
 architecture and ten excerpts from the production code: webhook verification, idempotent payments,

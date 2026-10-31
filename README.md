@@ -48,8 +48,8 @@ Square for payments, Resend for email, Vercel for hosting, GitHub Actions for CI
 
 **Results**
 
-- 477 merged pull requests on the platform repo from July to October 2026, 418 tied to their own
-  ticket
+- 500+ merged pull requests across my repos, 480 of them on the platform itself between July
+  and October 2026, nearly all tied to their own ticket
 - Members moved to the new platform with no service interruption
 - 12 production releases since go-live in September 2026
 - Platform split across two businesses in a week
